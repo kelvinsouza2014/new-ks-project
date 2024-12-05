@@ -4,9 +4,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "ks:developer": "mkdir developer && cd developer && echo #New_KS_Project > briefing.md && echo #Dictionary > disctionary.txt && echo #Notes > notes.txt && cd ../",
+    "ks:developer": "mkdir developer && cd developer && echo #New_Project > briefing.md && echo #Dictionary > disctionary.txt && echo #Notes > notes.txt && cd ../",
     "ks:dist": "mkdir dist && cd dist && mkdir css && mkdir img && mkdir js && mkdir html && cd ../",
-    "ks:src": "mkdir src && cd src && mkdir components && mkdir types && mkdir utils && echo. > main.ts && cd ../",
+    "ks:src": "mkdir src && cd src && mkdir components && mkdir styles && mkdir types && mkdir utils && echo. > main.ts && cd styles && mkdir scss && cd scss && mkdir header && mkdir main && mkdir variables && cd variables && mkdir variables-scss && echo. > _index.scss && cd ../ && mkdir mixins && cd mixins && mkdir mixins-scss && echo. > _index.scss && cd ../ && echo // SASS > style.scss && cd ../../../",
     "ks:project": "mkdir new_ks_project && cd new_ks_project && mkdir developer && cd developer && echo #New_Project > briefing.md && echo #Dictionary > disctionary.txt && echo #Notes > notes.txt && cd ../ && mkdir dist && cd dist && mkdir css && mkdir img && mkdir js && mkdir html && cd ../ && mkdir src && cd src && mkdir components && mkdir styles && mkdir types && mkdir utils && echo. > main.ts && cd styles && mkdir scss && cd scss && mkdir header && mkdir main && mkdir variables && cd variables && mkdir variables-scss && echo. > _index.scss && cd ../ && mkdir mixins && cd mixins && mkdir mixins-scss && echo. > _index.scss && cd ../ && echo // SASS > style.scss && cd ../../../ && echo node_modules > .gitignore && echo. > tsconfig.json && echo # New_KS_Project > README.md && npm init -y",
     "ks:angular": "npm install @angular/cli",
     "ks:sass": "npm install sass",
