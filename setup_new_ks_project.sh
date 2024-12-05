@@ -1,3 +1,4 @@
+#! /bin/bash
 mkdir new_ks_project && cd new_ks_project
 mkdir developer && cd developer
 echo "# New_Project" > briefing.md
