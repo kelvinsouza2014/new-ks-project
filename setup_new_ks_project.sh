@@ -22,7 +22,7 @@ mkdir mixins && cd mixins
 mkdir mixins-scss
 echo -e "// Imports mixins" > _index.scss
 cd ../
-echo "// Main style" > style.scss
+echo "// Global styles" > style.scss
 cd ../../../
 echo -e "# editorconfig.org\n\nroot = true\n\n[*]\ncharset = utf-8\nindent_style = space\nindent_size = 2\ninsert_final_newline = true\nmax_line_length = 80\ntrim_trailing_whitespace = true\n\n[*.ts]\nquote_type = single\n\n[*.md]\nmax_line_length = off\ntrim_trailing_whitespace = false" > .editorconfig
 echo -e "{\n\t\"trailingComma\": \"es5\",\n\t\"semi\": true,\n\t\"printWidth\": 80\n}" > .prettierrc
